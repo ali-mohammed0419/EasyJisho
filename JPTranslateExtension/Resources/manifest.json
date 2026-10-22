@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "JPTranslate",
+  "version": "1.0.1",
+  "description": "Look up selected text on Jisho without leaving the current page.",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "nativeMessaging",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
